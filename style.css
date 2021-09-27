@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    position:relative;
+}
+.box{
+    position:absolute;
+    height: 100vh;
+    width: 60vh;
+    left:0;
+    top:0;
+    bottom:0;
+    margin-top:-150px;
+    z-index: -1;
+    background-color: rgba(100, 148, 237, 0.555);
+    clip-path: circle(65% at 0 8%);
+
+}
+img{
+    width: 100%;
+}
+.top{
+    background-color: #ffffff;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.07);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.07);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.07); 
+}
+.nav-link{
+    color:cadetblue !important;
+    font-weight: 700;
+    font-family: 'lato';
+    font-size: 18px;
+    transition: 0.5s;
+}
+.nav-link:hover{
+    color:#111 !important;
+}
+.navbar-brand{
+    font-size:22px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: cadetblue !important;
+}
+.hero_section{
+    margin-top:150px;
+}
+.hero_section img{
+    max-width: 520px;
+}
+.hero_section h1{
+    font-size:60px;
+}
+.hero_section .design{
+    font-size:70px;
+    font-weight: 800;
+    margin-top:-30px;
+}
+.hero_section h3{
+    letter-spacing: 4px;
+    color: cadetblue;
+    font-weight: 600;
+}
+.hero_section .description{
+    margin-top:20px;
+}
+.hero_section .description p{
+    text-align: justify;
+    font-size:16px;
+    font-family: sans-serif;
+}
+
+.primary_btn {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: cadetblue;
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.4s;
+    border:none;
+    cursor: pointer;
+}
+
+.primary_btn:hover {
+    box-shadow: 7px 4px 5px 0px rgba(0, 0, 0, 0.27);
+    -webkit-box-shadow: 7px 4px 5px 0px rgba(0, 0, 0, 0.27);
+    -moz-box-shadow: 7px 4px 5px 0px rgba(0, 0, 0, 0.27);
+    
+}
+.primary_btn:active{
+    background-color:#fff;
+    color:cornflowerblue;
+}
+.contact_link a{
+    text-decoration: none;
+    color: cadetblue;
+    font-size:30px;
+    margin-right:20px;
+}
+.contact_link p{
+    font-family: 'lato';
+    font-weight: 500;
+    font-style: italic;
+}
+.contact_link p span{
+    letter-spacing: 3px;
+    color:cadetblue;
+}
